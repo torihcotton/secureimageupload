@@ -1,4 +1,14 @@
-<form name="upload" action="upload.php" method="POST" enctype="multipart/form-data">
-    Select image to upload: <input type="file" name="image">
-    <input type="submit" name="upload" value="upload">
+<!DOCTYPE html>
+<html>
+<body>
+
+<form name="upload" action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload: 
+    <input type="file" name="fileToUpload">
+       <ul>
+            <li>Sent file: <?php echo $_FILES['image']['name'];  ?>
+            <li>File size: <?php echo $_FILES['image']['size'];  ?>
+            <li>File type: <?php echo $_FILES['image']['type'] ?>
+         </ul>
+    <input type="submit" name="Upload Image" value="Upload Image">
 </form>
