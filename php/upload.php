@@ -1,6 +1,6 @@
 <?php
 $uploaddir = 'uploads/';
-
+//requires upload directory
 $uploadfile = $uploaddir . basename($_FILES['image']['name']);
       $file_tmp = $_FILES['image']['tmp_name'];
       $file_type = $_FILES['image']['type'];
