@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <form name="upload" action="upload.php" method="post" enctype="multipart/form-data">
     Select image to upload: 
     <input type="file" name="fileToUpload">
+ <!--   Display the image name, size and type -->
        <ul>
             <li>Sent file: <?php echo $_FILES['image']['name'];  ?>
             <li>File size: <?php echo $_FILES['image']['size'];  ?>
