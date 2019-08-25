@@ -1,7 +1,8 @@
 <?php
 ##########################################
 # ImageUpload Class version:	0.1 Beta #
-# Created by:					icecub	 #
+# Created by:			icecub	 #
+# Edited by:			toric 	 #
 ##########################################
 
 Class ImageUpload {
